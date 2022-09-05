@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7927990100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.base()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "change-backgroung-color;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 263621300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepsDefinition.set_skyBlue_background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3132401400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepsDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1363292300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepsDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3611899800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.base()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Sky white Background",
+        "description": "",
+        "id": "change-backgroung-color;sky-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepsDefinition.set_skyWhite_background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3141873400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I clicked on the button",
+            "match": {
+              "location": "StepsDefinition.i_clicked_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182922700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to sky white",
+            "match": {
+              "location": "StepsDefinition.the_background_color_will_change_to_sky_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "change Backgroung Color",
+    "description": "",
+    "id": "change-backgroung-color",
+    "keyword": "Feature",
+    "uri": "features/Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature1"
+      }
+    ]
+  }
+]
